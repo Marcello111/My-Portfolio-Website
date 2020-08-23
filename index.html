@@ -1,0 +1,148 @@
+<!DOCTYPE html>    
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Portfolio</title>
+        <meta name="description" content="My Portfolio Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="portfolio.css">
+		<script defer src="portfolio.js"></script>
+    </head>
+	<body>
+		<div id="page">
+			<header>
+				<h1>My Portfolio</h1>
+				<nav class="navbar">
+					<ul>
+						<li id="about-contact">About</li>
+						<li id="projects">My work</li>
+						<li id="contact">Contact</li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				<div class="top">
+					<a href="#page"><img src="images-portfolio/up.svg" alt="small up arrow"></a>
+				</div>
+				<article id="about-me" class="information-wrapper first-row">
+					<div class="cover-about">
+						<img src="images-portfolio/social.svg" alt="male avatar"/>
+					</div>
+					<div class="about-card-content">
+						<nav> 
+							<div id="about-card-marker" class="about-card-marker"></div>
+							<p data-tab-target="#about" class="active about-card-navigation"> About me </p> 
+							<p data-tab-target="#skills" class="about-card-navigation"> | Skills </p>
+							<p data-tab-target="#tools" class="about-card-navigation"> | Tools </p> 
+						</nav>
+						<div>
+							<div id="about" data-tab-content class="active">
+								<p>I'm <b>Marcell</b>, a Bristol based recent <a href="" target="_blank" rel="noreferrer noopener"><u>Develop Me</u></a> Web Developer Bootcamp graduate with a passion for building visually attractive and user-friendly websites.</p>
+							</div>
+							<div id="skills" data-tab-content>
+								<p><b>Technical: </b>HTML5 // CSS3/SASS // Bootstrap // JavaScript/ES6 // React.JS // REST API // PHP // MySQL // WordPress // Software Testing</p>
+								<p><b>Other: </b> Keen to learn // Teamwork // Critical Thinking // Problem Solving </p>  
+							</div>
+							<div id="tools" data-tab-content>
+								<p><b>Version Control: </b>Git // Github</p>
+								<p><b>Design/Wireframe: </b>Figma // Wireframe CC // Affinity Photo</p>
+								<p><b>API Testing: </b>Postman</p> 
+							</div>
+						</div>	
+						<a href="mailto:" class="message-button">&#9993; Send E-mail</a>
+					</div>	
+				</article><!--end of About me card content-->
+
+				<article id="contact-me" class="information-wrapper first-row">
+					<div class="cover-contact"></div>
+					<div class="contact-card-content">
+						<p>Send a message and/or visit the websites below.</p>
+						<p><b> Email: </b><a href="mailto:"> name@gmail.com </a></p>
+						<p><b>Github: </b><a href="" target="_blank" rel="noreferrer noopener">github.com/</a></p>
+						<p><b>My WordPress site: </b><a href="" target="_blank" rel="noreferrer noopener">wordpress.com</a></p>
+						<p class="info-text"><b>Course:</b> <a href="" target="_blank" rel="noreferrer noopener">develop me</a></p>
+						<p class="thank-you-text">Thank you!</p>
+						<a href="mailto:" class="message-button">&#9993; Send E-mail</a>
+					</div>	
+				</article><!--end of Contact card content-->
+
+				<article id="show-projects">
+					<div class="project-wrapper">
+						<div class="overlay-div"></div>
+						<article class="project-card first-row">
+							<div class="project-one"></div>
+							<div>
+								<h4>Table Tennis Bracket Generator</h4>
+								<button class="collapsible"><img src="images-portfolio/info.svg" alt="letter i"/></button>
+								<p class="more-information">This website randomly creates pairings for a table tennis tournament from a list of names collected from the user.</p>
+							</div>	
+							<footer><a href="">View Project</a> | <a href="">View Code </a> | <a href="">View Wireframes</a> | <a href="">View Test Cases</a></footer>
+						</article>
+						<article class="project-card first-row">
+							<div class="project-two"></div>
+							<div>
+								<h4>Weather Application</h4>
+								<button class="collapsible"><img src="images-portfolio/info.svg" alt="letter i"/></button>
+								<p class="more-information">This website shows the current weather in Bristol.</p>
+							</div>	
+							<footer><a href="">View Project</a> | <a href="">View Code</a> | <a href="">View Code with React</a> | <a href="">View Tests</a></footer>
+						</article>
+						<article class="project-card first-row">
+							<div class="project-three"></div>
+							<div>
+								<h4>Neon Calculator</h4>
+								<button class="collapsible"><img src="images-portfolio/info.svg" alt="letter i"/></button>
+								<p class="more-information">Calculator with a light and a dark mode.</p>
+							</div>	
+							<footer><a href="">View Project</a> | <a href="">View Code</a></footer>
+						</article>
+						<article class="project-card second-row">
+							<div class="project-four"></div>
+							<div>
+								<h4>Find the Odd One Out</h4>
+								<button class="collapsible"><img src="images-portfolio/info.svg" alt="letter i"/></button>
+								<p class="more-information">A simple game where the user has to find the odd animal on the picture and click on it in 5 seconds.</p>
+							</div>	
+							<footer><a href="">View Project</a> | <a href="">View Code</a></footer>
+						</article>
+						<article class="project-card second-row">
+							<div class="project-five"></div>
+							<div>
+								<h4>Photographer Portfolio Website</h4>
+								<button class="collapsible"><img src="images-portfolio/info.svg" alt="letter i"/></button>
+								<p class="more-information">A Photographer Portfolio Website Layout, designed by the DevelopMe_ Team.</p>
+							</div>	
+							<footer><a href="">View Project</a> | <a href="">View Code</a></footer>
+						</article>
+						<article class="project-card second-row">
+							<div class="project-six"></div>
+							<div>
+								<h4>Develop Me Website</h4>
+								<button class="collapsible"><img src="images-portfolio/info.svg" alt="letter i"/></button>
+								<p class="more-information">DevelopMe_ Tech Career Accelerator Website Layout, designed by the DevelopMe_ Team.</p>
+							</div>	
+							<footer><a href="">View Project</a> | <a href="">View Code</a></footer>
+						</article>
+					</div>
+				</article> <!--end of Projects content-->
+			</main>
+			<footer>
+				<div class="footer">
+					<p class= "footer">	&#169;Marcell, 2020 </p>
+					<nav>
+						<ul>
+							<li class="footer-icon"><a href=""><img src="images-portfolio/blog.svg" alt="blog icon"/></a></li>
+							<li class="footer-icon"><a href="mailto:"><img src="images-portfolio/message.svg" alt="email icon"/></a></li>
+							<li class="footer-icon"><a href=""><img src="images-portfolio/social-media.svg" alt="linkedin icon"></a></li>	
+							<li class="footer-icon"><a href=""><img src="images-portfolio/square.svg" alt="github icon"></a></li>
+						</ul>
+					</nav>
+				</div>
+				<p class="attribution">Icon made by Pixel perfect from www.flaticon.com</p>
+				<p class="attribution">Icon made by Smashicons from www.flaticon.com</p>
+				<p class="attribution">Icon made by Srip from www.flaticon.com</p>
+				<p class="attribution">All the pictures on this websites are from www.unsplash.com</p>		
+			</footer>
+		</div>
+	</body>
+</html>
